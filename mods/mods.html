@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mods</title>
+    <link rel="stylesheet" href="mods.css">
+</head> 
+<body>
+    
+    <header class="nav-container">
+        <div class="topic-name">
+            <h1>Nyomi's Stardew Valley Mod List</h1>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="../SDV.html">Home</a></li>
+                <li><a href="../mods/mods.html">Mods</a></li>
+                <li><a href="../about/about.html">About</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <main class="main-section">
+            
+            <div class="button-container">
+                <button class="pop-up-button button1" onclick="openModal('modal1')">Building and Interior</button>
+                <button class="pop-up-button button2" onclick="openModal('modal2')">Content Expansion</button>
+                <button class="pop-up-button button3" onclick="openModal('modal3')">Creatures and Characters</button>
+                <button class="pop-up-button button4" onclick="openModal('modal4')">Gameplay Mechanics</button>
+                <button class="pop-up-button button5" onclick="openModal('modal5')">Modding Tools</button>
+                <button class="pop-up-button button6" onclick="openModal('modal6')">Visuals and Customization</button>
+            </div>
+            
+        </main>
+    </div>
+
+    <div id="modal1" class="modal">
+        <div class="modal-container">
+            <span class="close-button" onclick="closeModal('modal1')">&times;</span>
+            <div class="h2-box">
+                <h2 class="mod-category">Building and Interior</h2>
+                <hr class="category-divider">
+            </div>
+            <div id="building-and-interior"></div>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-container">
+            <span class="close-button" onclick="closeModal('modal2')">&times;</span>
+            <div class="h2-box">
+                <h2 class="mod-category">Content Expansion</h2>
+                <hr class="category-divider">
+            </div>
+            <div id="content-expansion"></div>
+        </div>
+    </div>
+    
+    <div id="modal3" class="modal">
+        <div class="modal-container">
+            <span class="close-button" onclick="closeModal('modal3')">&times;</span>
+            <div class="h2-box">
+                <h2 class="mod-category">Creatures and Characters</h2>
+                <hr class="category-divider">
+            </div>
+            <div id="creatures-and-characters"></div>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-container">
+            <span class="close-button" onclick="closeModal('modal4')">&times;</span>
+            <div class="h2-box">
+                <h2 class="mod-category">Gameplay Mechanics</h2>
+                <hr class="category-divider">
+            </div>
+            <div id="gameplay-mechanics"></div>
+        </div>
+    </div>
+
+    <div id="modal5" class="modal">
+        <div class="modal-container">
+            <span class="close-button" onclick="closeModal('modal5')">&times;</span>
+            <div class="h2-box">
+                <h2 class="mod-category">Modding Tools</h2>
+                <hr class="category-divider">
+            </div>
+            <div id="modding-tools"></div>
+        </div>
+    </div>
+
+    <div id="modal6" class="modal">
+        <div class="modal-container">
+            <span class="close-button" onclick="closeModal('modal6')">&times;</span>
+            <div class="h2-box">
+                <h2 class="mod-category">Visuals and Customization</h2>
+                <hr class="category-divider">
+            </div>
+            <div id="visuals-and-customization"></div>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>

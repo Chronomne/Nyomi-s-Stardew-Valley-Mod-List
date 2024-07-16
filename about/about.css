@@ -1,0 +1,163 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b5b5b5;
+}
+
+/* Navigation */
+
+header {
+    background-color: #6b6bbb;
+    width: 100%;
+    padding: 1px 0;
+    background-image: url(../images/sdvbanner.png);
+    background-size: cover;
+    background-position: center bottom;
+    position: inherit;
+}
+
+header .topic-name {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: -10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    transition: color 0.1s ease, transform 0.1s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul li a:hover {
+    color: #9f3fc8;
+}
+
+nav ul li a:active {
+    color: #60187e;
+    transform: translateY(3px);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* main container */
+.main-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 3px solid #6b6bbb;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* About Section */
+.about-section {
+    padding: 40px;
+    background-color: #e8f9fc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 360px;
+}
+
+.about-section h2 {
+    color: #6b6bbb;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.about-section p {
+    color: #6b6bbb;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    header .topic-name {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+
+    .main-container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .about-section {
+        padding: 20px;
+        height: auto;
+    }
+
+    .about-section h2 {
+        font-size: 2em;
+    }
+
+    .about-section p {
+        font-size: 1em;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header .topic-name {
+        font-size: 1.2em;
+    }
+
+    nav ul li a {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .main-container {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .about-section {
+        padding: 10px;
+    }
+
+    .about-section h2 {
+        font-size: 1.5em;
+    }
+
+    .about-section p {
+        font-size: 0.9em;
+    }
+}

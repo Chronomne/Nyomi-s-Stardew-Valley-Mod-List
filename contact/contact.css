@@ -1,0 +1,201 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b5b5b5;
+}
+
+/* Navigation */
+
+header {
+    background-color: #6b6bbb;
+    width: 100%;
+    padding: 1px 0;
+    background-image: url(../images/sdvbanner.png);
+    background-size: cover;
+    background-position: center bottom;
+    position: inherit;
+}
+
+header .topic-name {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: -10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    transition: color 0.1s ease, transform 0.1s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul li a:hover {
+    color: #9f3fc8;
+}
+
+nav ul li a:active {
+    color: #60187e;
+    transform: translateY(3px);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+/* container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 3px solid #6b6bbb;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* contact-container */
+
+.contact-con {
+    padding: 40px;
+    background-color: #e8f9fc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+/* Main */
+
+.contact-con .topic {
+    text-align: center;
+}
+
+.contact-con .topic h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-top: -5px;
+    color: #6b6bbb;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.divider {
+    border: 0;
+    height: 2px;
+    background: #6b6bbb;
+    margin: 40px auto;
+    width: 80%;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-icon {
+    font-size: 50px;
+    color:#6b6bbb;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.contact-icon:hover {
+    color: #8e8ef4;
+    text-shadow: 0 4px #b5b5b5
+}
+
+.contact-icon:active {
+    transform: translateY(2px);
+    text-shadow: 0 2px #b5b5b5
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    header .topic-name {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .contact-con {
+        padding: 20px;
+    }
+
+    .contact-con .topic h3 {
+        font-size: 1.8em;
+    }
+
+    .contact-icon {
+        font-size: 40px;
+    }
+
+    .divider {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    header .topic-name {
+        font-size: 1.2em;
+    }
+
+    nav ul li a {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .container {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .contact-con {
+        padding: 10px;
+    }
+
+    .contact-con .topic h3 {
+        font-size: 1.5em;
+    }
+
+    .contact-icon {
+        font-size: 30px;
+    }
+
+    .divider {
+        width: 95%;
+    }
+}
