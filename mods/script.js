@@ -635,6 +635,18 @@ const mods = {
     ],
     "visualsAndCustomization": [
         {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/26025/26025-1720790327-414300611.gif",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/26025",
+            "modName": "(AT) DustBeauty's Seasonal Fences",
+            "modDescription": "Ready to paint your fences with Dustbeauty's seasonal fences? Now compatible with SDV 1.6!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/26026/26026-1720791564-1493856932.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/26026",
+            "modName": "(AT) DustBeauty's Seasonal Path and Flooring",
+            "modDescription": "Bless your floors and paths with Dustbeauty's seasonal flooring~ Now compatible with SDV 1.6!"
+        },
+        {
             "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/20329/20329-1708763120-1206701226.png",
             "modUrl": "https://www.nexusmods.com/stardewvalley/mods/20329",
             "modName": "(AT) Greenhouse Set",
@@ -689,12 +701,6 @@ const mods = {
             "modDescription": "Want to change up the look of the fish, crab pots, and beach forageables in the game to be more realistic? Want more toned down colors? Look no further!"
         },
         {
-            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/25964/25964-1720927454-840033591.png",
-            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/25964",
-            "modName": "AT - Witchy Terrariums - Bog Style",
-            "modDescription": "Witchy Terrariums - Bog Style is a seasonal replacement mod for Stardew Valley, transforming the coop into a magical terrarium."
-        },
-        {
             "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/3942/3942-1558178370-1621183852.png",
             "modUrl": "https://www.nexusmods.com/stardewvalley/mods/3942",
             "modName": "BB's shirts mod",
@@ -725,10 +731,106 @@ const mods = {
             "modDescription": "Want to change up the look of the resources in the game to be more realistic? Want more toned down colors? Look no further!"
         },
         {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/24483/24483-1717014036-1013036.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/24483",
+            "modName": "Bog's Elk Spirit Horse and Stable",
+            "modDescription": "An Elk forest spirit has wandered onto your land! You can now ride it as a mount and of course it comes with an enchanted grove to match!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/24652/24652-1717685106-693811892.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/24652",
+            "modName": "Bog's Haunted Barns and Barn Animals",
+            "modDescription": "have you ever wanted your barns and barn animals to be... spookier? Behold! All the barn animals are now spooky little ghosts with products and barns to match!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/24390/24390-1717689167-1218092474.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/24390",
+            "modName": "Bog's Haunted Coops and Coop Animals",
+            "modDescription": "Turn your coops into a witchy haunted appearance with spooky animals and animal products to match!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/23693/23693-1717013560-499567804.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/23693",
+            "modName": "Bog's Krobus Retro Furniture Recolor",
+            "modDescription": "You love Krobus? You wish you could decorate your house to match his cute spooky vibes? Don't worry, I have recolored the Retro Catalog to match Krobus' aesthetic. Why? because it was just calling for it."
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/24448/24448-1717014014-616904749.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/24448",
+            "modName": "Bog's Moon Gate Obelisks",
+            "modDescription": "I have turned the obelisks into stone moon gates to fit the aesthetic and vibes of my other mods!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/24780/24780-1717335759-1807832986.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/24780",
+            "modName": "Bog's Mossy Paths",
+            "modDescription": "The paths you use to decorate your farm outside have been updated to be mossy and match the aesthetic of my other mods!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/26065/26065-1720903873-1682020125.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/26065",
+            "modName": "Bog's Moth Tappers",
+            "modDescription": "I know you have always wanted moths on your trees! So now you can have your tappers be replaced by 5 different versions of moths."
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/23842/23842-1717013647-989373023.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/23842",
+            "modName": "Bog's Mushroom Trees for Alternative Textures",
+            "modDescription": "You love mushrooms and need more of them in your life? DO NOT FRET, ive got you. You now have 4 new Mushroom Trees that automatically randomize and allow you to use the AT paint bucket to change them! Purple, Morel, Brown & Green Mushroom Trees huzzahhh!"
+        },
+        {
             "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/23902/23902-1717013783-1125863669.png",
             "modUrl": "https://www.nexusmods.com/stardewvalley/mods/23902",
             "modName": "Bog's Seasonal Junimo Catalogue",
             "modDescription": "I have recreated the Junimo Catalogue with SEASONAL CHANGES! Also recolored to fit the wood tones and aesthetic of all of my mods."
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/24226/24226-1717689561-238682701.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/24226",
+            "modName": "Bog's Seasonal Witchy Farm Houses",
+            "modDescription": "Witchy mossy overgrown Farmhouse that changes with the seasons!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/24740/24740-1717683334-952192085.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/24740",
+            "modName": "Bog's Witchy Fences",
+            "modDescription": "These fences are no longer boring! Perfect for the goblins, witches and forest folk these fences will make your farm become one with the forest!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/25720/25720-1719887627-407852533.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/25720",
+            "modName": "Bog's Witchy Foliage",
+            "modDescription": "Replaces your trees, grass and bushes! Seasonal and with config options for 3 different types of grass and options for trees!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/24524/24524-1717014060-1521098721.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/24524",
+            "modName": "Bog's Witchy Sheds",
+            "modDescription": "Now you can match the aesthetic of your sheds to the rest of my mods! With 4 different options so you have all the variety!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/24542/24542-1717684475-1704270372.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/24542",
+            "modName": "Bog's Witchy Silo",
+            "modDescription": "a silo to match all my other mods!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/24078/24078-1717013881-346815364.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/24078",
+            "modName": "Bog's Witchy Tools",
+            "modDescription": "A mossy, spectral, witchy replacement for all the tools and scythes!"
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/24109/24109-1717013918-166698644.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/24109",
+            "modName": "Bog's Witchy Weapons",
+            "modDescription": "So i heard you want your weapons to have a little m a g i c? Goblins, Ghouls, Witches and Toads, dont worry, i got you."
+        },
+        {
+            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/23770/23770-1717013591-44082290.png",
+            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/23770",
+            "modName": "Bog's Wizard Catalogue Recolor",
+            "modDescription": "The Wizard Catalogue has been updated to feel more magical and fit the aesthetic wood tones and colors of my other mods."
         },
         {
             "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/11555/11555-1649183948-2059586873.png",
@@ -747,12 +849,6 @@ const mods = {
             "modUrl": "https://www.nexusmods.com/stardewvalley/mods/2871",
             "modName": "Coii's All Hats Pack",
             "modDescription": "Replaces farmer's hats."
-        },
-        {
-            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/8558/8558-1619035628-131033330.png",
-            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/8558",
-            "modName": "Cottagecore Fences",
-            "modDescription": "Seasonal craftable fences retexture."
         },
         {
             "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/19191/19191-1700138089-866294175.png",
@@ -989,22 +1085,10 @@ const mods = {
             "modDescription": "Rustic country style walls and floors."
         },
         {
-            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/4870/4870-1576211556-1965713315.png",
-            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/4870",
-            "modName": "Seasonal Fences",
-            "modDescription": "Redesign all the fences and fence gates, Adds seasonal variants to them. For 1.4 and Content Patcher."
-        },
-        {
             "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/13720/13720-1662742403-206110424.gif",
             "modUrl": "https://www.nexusmods.com/stardewvalley/mods/13720",
             "modName": "Seasonal Japanese Buildings for Alternative Textures",
             "modDescription": "This is an Alternative Textures conversion of the Seasonal Japanese Buildings mod by sonreirblah."
-        },
-        {
-            "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/4852/4852-1575993282-1818856053.png",
-            "modUrl": "https://www.nexusmods.com/stardewvalley/mods/4852",
-            "modName": "Seasonal Path and Flooring",
-            "modDescription": "New colours and designs for all the floorings and paths, with a little bit of seasonal touch. Including matching thumbnails and the new path from 1.4, for content patcher."
         },
         {
             "imgSrc": "https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/2790/2790-1581837191-72107127.png",
